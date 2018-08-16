@@ -6,6 +6,7 @@
         Ingredient: <%= dose.ingredient.name %>
         <br>
         Dose: <%= dose.description %>
+        <br>
         <%= link_to "Delete", cocktail_dose_path(@cocktail, dose),
         method: :delete,
         data: { confirm: "Are you sure?" } %>
@@ -14,5 +15,5 @@
     </ul>
   <%= link_to "Add doses", new_cocktail_dose_path(@cocktail.id)  %>
   <br>
-  <%= link_to "Back to cocktails", cocktails_path %>
+  <%= link_to "Back to list", cocktails_path %>
 </div>

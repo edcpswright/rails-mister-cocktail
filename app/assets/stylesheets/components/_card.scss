@@ -1,0 +1,9 @@
+.card {
+    height: 175px;
+    background-size: cover !important;
+    background-position: center;
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), asset-url("cocktail.jpg");
+    font-family: avenir;
+    color: white
+}
